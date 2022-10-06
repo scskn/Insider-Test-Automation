@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40079" started-at="2022-10-06T18:22:13Z" finished-at="2022-10-06T18:22:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40079" started-at="2022-10-06T18:22:13Z" finished-at="2022-10-06T18:22:53Z">
+      <class name="com.useinsider.tests.JobApplicationTests">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:com.useinsider.tests.JobApplicationTests@598067a5]" name="preSetup" is-config="true" duration-ms="312" started-at="2022-10-06T21:22:13Z" finished-at="2022-10-06T21:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.useinsider.tests.JobApplicationTests@598067a5]" name="setup" is-config="true" duration-ms="11555" started-at="2022-10-06T21:22:13Z" finished-at="2022-10-06T21:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyHomePageIsOpened()[pri:0, instance:com.useinsider.tests.JobApplicationTests@598067a5]" name="verifyHomePageIsOpened" duration-ms="26621" started-at="2022-10-06T21:22:25Z" finished-at="2022-10-06T21:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageIsOpened -->
+        <test-method status="PASS" signature="postTestAction(org.testng.ITestResult)[pri:0, instance:com.useinsider.tests.JobApplicationTests@598067a5]" name="postTestAction" is-config="true" duration-ms="8" started-at="2022-10-06T21:22:51Z" finished-at="2022-10-06T21:22:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageIsOpened status=SUCCESS method=JobApplicationTests.verifyHomePageIsOpened()[pri:0, instance:com.useinsider.tests.JobApplicationTests@598067a5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTestAction -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.useinsider.tests.JobApplicationTests@598067a5]" name="tearDown" is-config="true" duration-ms="1859" started-at="2022-10-06T21:22:51Z" finished-at="2022-10-06T21:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="postTearDown()[pri:0, instance:com.useinsider.tests.JobApplicationTests@598067a5]" name="postTearDown" is-config="true" duration-ms="485" started-at="2022-10-06T21:22:53Z" finished-at="2022-10-06T21:22:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postTearDown -->
+      </class> <!-- com.useinsider.tests.JobApplicationTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
